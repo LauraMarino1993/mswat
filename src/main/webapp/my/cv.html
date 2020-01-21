@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>CV Laura Marino</h1>
+	<figure>
+		<img
+			src="https://cdn.pixabay.com/photo/2020/01/14/11/00/nubian-ibex-4764738_960_720.jpg"
+			title="che bella" alt="capretta" width="200">
+		<figcaption>Nei miei momenti migliori</figcaption>
+	</figure>
+	<p>data di nascita: 18/02/1993</p>
+	<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.0252060678417!2d9.135789415882952!3d45.44914817910081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c3cc203ad9c9%3A0xd3267d69793aa981!2sVia%20dei%20Tulipani%2C%2020146%20Milano%20MI!5e0!3m2!1sit!2sit!4v1579614321690!5m2!1sit!2sit"
+		width="300" height="200" frameborder="0" style="border: 0;"
+		allowfullscreen=""></iframe>
+	<p>Via dei Tulipani, Milano</p>
+	<a href="https://it.linkedin.com/in/laura-marino"
+		title="il mio linkedin">Linkedin</a>
+	
+	<hr>
+	<h2>Esperienze professionali</h2>
+	<h3>Accenture technology</h3>
+	<p>Code for future - women in tech: corso di formazione sui
+		linguaggi di programmazione</p>
+	<ul>
+		<li>Java</li>
+		<li>PL/SQL</li>
+		<li>HTML</li>
+		<li>javascript</li>
+	</ul>
+	<h3>Altroconsumo</h3>
+	<p>Stage in ambito risorse umane e comunicazione interna</p>
+	<hr>
+	<h2>Istruzione</h2>
+	<dl>
+		<dt>
+			<b>Laurea magistrale</b>
+		</dt>
+		<dd>Accademia di Belle Arti di Brera: applicazioni digitali per i
+			beni culturali</dd>
+		<dt>
+			<b>Laurea triennale</b>
+		</dt>
+		<dd>Università degli Studi di Milano: scienze umanistiche per la
+			comunicazione</dd>
+	</dl>
+
+	<hr>
+	<h2>Competenze</h2>
+	<h3>Lingue</h3>
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">scritto</th>
+			<th scope="col">parlato</th>
+		</tr>
+		<tr>
+			<th scope="row">Inglese</th>
+			<td>B2</td>
+			<td>B2</td>
+		</tr>
+		<tr>
+			<th scope="row">Francese</th>
+			<td>A1</td>
+			<td>A2</td>
+		</tr>
+	</table>
+<br>
+<h2>Contatti</h2>
+	<p><a href="mailto:adm@example.com">Scrivimi una mail</a> <br> Oppure compila il form di seguito:</p>
+	 <form action="/contacts" method="post">
+        <div>
+           <fieldset>
+                <legend>I tuoi dati</legend>
+                <label>Nome: <input type="text" name="fname" required maxlength="30"/></label>
+                <label>Cognome: <input type="text" name="lname" required maxlength="30"/></label>
+                <br>
+                <label>Indirizzo mail: <input type="text" name="mail" required/></label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="msg">Messaggio:</label>
+            <textarea id="msg" name="message"></textarea>
+        </div>
+         <div>
+         <p> Come sei venuto a conoscenza del mio cv? </p>
+            <input type="radio" id="favJ" name="fav" value="Java" checked />
+            <label for="favL">Linkedin</label>
+            <input type="radio" id="favPy" name="fav" value="Python" />
+            <label for="favS">Sito web</label>
+            <input type="radio" id="favCpp" name="fav" value="Cpp" />
+            <label for="favC">Conoscenza personale</label>
+            <input type="radio" id="favCpp" name="fav" value="Cpp" />
+            <label for="favA">Altro</label>
+        </div>
+        <div>
+        <p> Qual è il tuo intento nel contattarmi?
+            <select name="os">
+                <option value="none">-</option>
+                <option value="work" selected>Offerta di lavoro</option>
+                <option value="meet">Conoscenza reciproca</option>
+                <option value="other">Altro</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">invia</button>
+        </div>
+    </form>
+</body>
+</html>
